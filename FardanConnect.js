@@ -1348,12 +1348,10 @@ ${yess}Tanggal : ${calender}${yess}
 ${yess}Library : Baileys-script${yess}
 ${yess}Version : 4.2.8${yess}
 ${yess}Language : Javascript${yess}
-${yess}Author : Fax${yess}
-${yess}Time : ${timeWib} WIB
+${yess}Author : ImanOffc${yess}
+${yess}Time : ${timeWib}${yess}
 
-
-Rest Api :https://api-helgazex.herokuapp.com
-Github :https://github.com/FaxBotz
+Github :https://github.com/imanprokeren
 
 
 ${require('./teks/help').help(prefix, k, pushname)}`
@@ -1414,7 +1412,7 @@ ${yes}wit : ${timeWit}${yes}
 
 
 
-${yes}Creator by Fax${yes}
+${yes}Creator By ImanOffc${yes}
        
        
        
@@ -3069,7 +3067,7 @@ RAM • vCpu • SSD • NOM
 8 GB | 4 vCpu | 136GB : 75K
 
 
-List Vps By Fardan Store
+List Vps By Iman
 
 RAM • vCpu • SSD • NOM
 
@@ -3079,7 +3077,7 @@ RAM • vCpu • SSD • NOM
 Note : Free Peng Install An Google Chrome
 
 Minat?Chat
-https://wa.me/6281398860278`
+https://wa.me/6289522724388`
 				sendButLocation(from, `${memek}`, `Subscribe Channel\nFardan Zex!!`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}owner`,buttonText:{displayText:'Done 🌌'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 				break
 case 'jasrun':
