@@ -1180,10 +1180,10 @@ Jika sudah dipahami rules-nya, silakan ketik *.menu* untuk memulai!
 Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan FaxChan-
 😖🙏
 
-For GitHub : https://github.com/FaxBotz
-YouTube Fardan : https://youtube.com/c/FaxBotz
+For GitHub : https://github.com/imanprokeren
+YouTube Iman : https://youtube.com/c/ManzBotEdtz
 `
-sendButLocation(from, `${menu}`, "Fax Dev", {jpegThumbnail:ofrply,name:""}, [{buttonId:`ping`,buttonText:{displayText:'SPEED BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "ImanOffc", {jpegThumbnail:ofrply,name:""}, [{buttonId:`ping`,buttonText:{displayText:'SPEED BOT'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 else if(menusimpel = true){
         stod = `${sender}`
@@ -1191,7 +1191,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =`𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅3.0.0`
+menu =`ImanBot 𝚅1.0.0`
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'SHOW MENU'},type:1},
 {buttonId:`store`,buttonText:{displayText:'STORE MENU'},type:1},
@@ -1221,13 +1221,13 @@ case 'source':
 case 'sourcecode':
 case 'sc':
 
-reply(`Base Ori :\nhttps://github.com/HelgaIlham/BaseeZuka\nRest Api : \nhttps://api-helgazex.herokuapp.com\n\nFull Sc :\nChat Own\n\n_About :_\nhttps://youtube.com/c/helgazexs妥`)
+reply(`Base Ori :\nhttps://github.com/imanprokeren/ImanBot\nRest Api : \nhttps://imanprokeren.herokuapp.com\n\nFull Sc :\nChat Own\n\n_About :_\nhttps://youtube.com/c/ManzBotEdtz`)
 break
 case 'simple':
  stod = `${sender}`
  listMsg = {
- buttonText: 'Simple Menu Fax',
- footerText: '*FaxBase*',
+ buttonText: 'Simple Menu ImanBot',
+ footerText: '*ImanOffc*',
  description: `Hai Kak @${stod.split('@')[0]}\nGunakan Bot Dengan Bijak Yaa..\n\n️💬 ${tampilUcapan}\n⏰ Jam : ${jmn}\n🌄 Hari : ${week} ${weton}\n🗓️ Tanggal : ${calender}\n`,
  sections: [
                      {
@@ -1265,7 +1265,7 @@ case 'simple':
                            },
                            {
                               "title": "Owner Bot🐣",
-                              "description": 'Owner Bot Fax Chan!',
+                              "description": 'Owner Bot!',
                               "rowId": ""
                               
                            },
@@ -1277,7 +1277,7 @@ case 'simple':
                            },
                            {
                               "title": "Source Code⚠️",
-                              "description": 'Script / Sc Dari Bot FaxBase',
+                              "description": 'Script / Sc Dari Bot ImanBot',
                               "rowId": ""
                               
                            },
@@ -1353,7 +1353,6 @@ ${yess}Time : ${timeWib}${yess}
 
 Github :https://github.com/imanprokeren
 
-
 ${require('./teks/help').help(prefix, k, pushname)}`
 sendButLocation(from, `${menu}`, `Fax`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}owner`,buttonText:{displayText:'OWNER'},type:1}], {contextInfo: { mentionedJid: [sender]}})
 				break
@@ -1389,13 +1388,12 @@ ${yes}Platform : ${os.platform()}
 ${yes}Library : Baileys-script${yes}
 ${yes}Version : 4.2.8${yes}
 ${yes}Language : Javascript${yes}
-${yes}Author : Fax Dev${yes}
+${yes}Author : ImanOffc${yes}
 ${yes}Time : ${timeWib} WIB${yes}
 
 ${yes}FREE REST API${yes}
-${yes}https://api-helgazex.herokuapp.com${yes}
 ${yes}MY ALL SOSMED${yes}
-${yes}https://github.com/FaxBotz${yes}
+${yes}https://github.com/imanprokeren${yes}
 
 ${yes}${tampilUcapan}${yes}
 ${yes}Hari : ${week} ${weton}${yes}
@@ -1405,20 +1403,11 @@ ${yes}Wita : ${timeWita}${yes}
 ${yes}wit : ${timeWit}${yes}
 
 
-
-
-
-
-
-
-
 ${yes}Creator By ImanOffc${yes}
-       
-       
-       
+                   
        `
 
-sendButDocument(from, `${menu}`, "Cretaed Fax\nBase Ini Sedang Dalam Tahap Pengembangan, Gunakan Bot Dengan Sebaik Mungkin!", fs.readFileSync('./Fardan.jpg'), {mimetype:Mimetype.pdf, thumbnail:ofrply, filename:`Fax Botz`}, [{buttonId:`${prefix}allmenu`,buttonText:{displayText:'COMMAND'},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'OWNER'},type:1},{buttonId:`${prefix}sewabot`,buttonText:{displayText:'PRESINCE'},type:1}], {quoted:fmen, contextInfo: { mentionedJid: [dtod,otod,ptod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`Hai Kak ${pushname}`,body:`${calender} / ${timeWib}`,mediaType:"2",thumbnail:ofrply,mediaUrl:`https://youtu.be/bF7K7KL7dVY`}}})
+sendButDocument(from, `${menu}`, "ImanOffc\nTerimakasih Telah Menggunakan ImanBot!", fs.readFileSync('./Fardan.jpg'), {mimetype:Mimetype.pdf, thumbnail:ofrply, filename:`Fax Botz`}, [{buttonId:`${prefix}allmenu`,buttonText:{displayText:'COMMAND'},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'OWNER'},type:1},{buttonId:`${prefix}sewabot`,buttonText:{displayText:'PRESINCE'},type:1}], {quoted:fmen, contextInfo: { mentionedJid: [dtod,otod,ptod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`Hai Kak ${pushname}`,body:`${calender} / ${timeWib}`,mediaType:"2",thumbnail:ofrply,mediaUrl:`https://youtu.be/bF7K7KL7dVY`}}})
 break
 case 'bugreport':
               if (args.length < 1) return reply(`Ketik ${prefix}bugreport [fiturnya] [Error Nya Gimana]`) 
@@ -1968,7 +1957,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygelud = {
     contentText: `${anu}`,
-    footerText: '*© Fax*',
+    footerText: '*© ImanOffc*',
     buttons: buttons,
     headerType: 1
 }
@@ -2000,7 +1989,7 @@ case 'jadibot':
 
 menu = `Enak aja lu mau numpang sewa lah :v`
 katalog(menu)
-sendButLocation(from, `Hai ${pushname} ☺️`, "*_© 𝙰𝚢𝚊𝚊 𝚅2.ೃ࿐_*", {jpegThumbnail:ofrply}, [{buttonId:`${prefix}sewa`,buttonText:{displayText:'SEWA 🎟️'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `Hai ${pushname} ☺️`, "*_© ImanBot 𝚅1.ೃ࿐_*", {jpegThumbnail:ofrply}, [{buttonId:`${prefix}sewa`,buttonText:{displayText:'SEWA 🎟️'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 break
 case 'stopjadibot':
 if (!isOwner && !mek.key.fromMe) return reply(mess.only.ownerB)
@@ -3103,7 +3092,7 @@ case 'donate':
             gopeynya = 'https://e.top4top.io/p_21336v4de1.jpg'
             buff = await getBuffer(gopeynya)
             teksnya = `
-DONASI OM\nSESUNGGUH NYA ORANG YANG MEMBERI LEBIH BAIK DARI MENERIMA ☝\n\nDana ️🎁: 081398860278\nOvo 🎊: 081398860278\nPulsa Tsel 📺: 082138919347\nPulsa Tsel 📺: 081398860278
+DONASI OM\nSESUNGGUH NYA ORANG YANG MEMBERI LEBIH BAIK DARI MENERIMA ☝\n\nDana ️🎁: ImanOffc\nOvo 🎊: ImanOffc\nPulsa Tsel 📺: ImanOffc\nPulsa Tsel 📺: ImanOffc
 `
   buttons = [{buttonId: `${prefix}owner`,buttonText:{displayText: `Owner👑`},type:1}]
               imageMsg = (await Fardan.prepareMessageMedia(buff, "imageMessage", { thumbnail: buff, })).imageMessage
@@ -3399,7 +3388,7 @@ DONASI OM\nSESUNGGUH NYA ORANG YANG MEMBERI LEBIH BAIK DARI MENERIMA ☝\n\nDana
 punten = [{buttonId: 'welcome off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'welcome on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btngrass = {
     contentText: `${anu}`,
-    footerText: '*𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅3.0.0*',
+    footerText: '*ImanBot 𝚅1.0.0*',
     buttons: punten,
     headerType: 1
 }
