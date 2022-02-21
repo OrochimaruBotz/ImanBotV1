@@ -1175,10 +1175,6 @@ Sanksi: *‼️ PERMANENT BLOCK ‼️*
 
 Jika sudah dipahami rules-nya, silakan ketik *.menu* untuk memulai!
 
-⚠️ Segala kebijakan dan ketentuan FaxChan di pegang oleh owner dan segala perubahan kebijakan, sewaktu waktu owner berhak mencabut, memblokir user(*﹏*) 
-
-Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu juga dalam project pembuatan FaxChan-
-😖🙏
 
 For GitHub : https://github.com/imanprokeren
 YouTube Iman : https://youtube.com/c/ManzBotEdtz
@@ -1354,7 +1350,7 @@ ${yess}Time : ${timeWib}${yess}
 Github :https://github.com/imanprokeren
 
 ${require('./teks/help').help(prefix, k, pushname)}`
-sendButLocation(from, `${menu}`, `Fax`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}owner`,buttonText:{displayText:'OWNER'},type:1}], {contextInfo: { mentionedJid: [sender]}})
+sendButLocation(from, `${menu}`, `ImanOffc`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}owner`,buttonText:{displayText:'OWNER'},type:1}], {contextInfo: { mentionedJid: [sender]}})
 				break
 case 'menu':
         case 'help':
@@ -1393,6 +1389,7 @@ ${yes}Time : ${timeWib} WIB${yes}
 
 ${yes}FREE REST API${yes}
 ${yes}MY ALL SOSMED${yes}
+${yes}https://youtube.com/channel/UCZgMAWwicUvzjw5m5HtIGcw
 ${yes}https://github.com/imanprokeren${yes}
 
 ${yes}${tampilUcapan}${yes}
@@ -1717,7 +1714,7 @@ case 'pornhub':
                 case 'freefire':
                 
               
-                    if (args.length == 0) return reply(`Contoh: ${prefix + command} Fax Chan`)
+                    if (args.length == 0) return reply(`Contoh: ${prefix + command} Iman Bot`)
                     txt1 = args[0]
                     getBuffer(`https://api.lolhuman.xyz/api/ephoto1/${command}?apikey=${settings.lolkey}&text=${txt1}`).then((gambar) => {
                         Fardan.sendMessage(from, gambar, image, {thumbnail: Buffer.alloc(0), caption: `                   *Succes*              `, quoted : mek})
@@ -1977,7 +1974,7 @@ anu =`Silahkan pilih salah satu di bawah`
  buttons = [{buttonId: 'setallmenu ori', buttonText: {displayText: 'ORI'}, type: 1},{buttonId: 'setallmenu simpel', buttonText: {displayText: 'SIMPEL'}, type: 1}]
 const skuygf = {
     contentText: `${anu}`,
-    footerText: '*𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅3.0.0*',
+    footerText: '*ImanBot 𝚅1.0.0*',
     buttons: buttons,
     headerType: 1
 }
@@ -2150,7 +2147,7 @@ _*Tunggu Proses Upload Media......*_`
 const buttons = [{buttonId: 'antideletee on', buttonText: {displayText: 'ON✔️'}, type: 1},{buttonId: 'antideletee off', buttonText: {displayText: 'OFF✖️'}, type: 1}]
 const buttonMessage = {
     contentText: `${anu}`,
-    footerText: '*𝚉𝚞𝚔𝚊𝙲𝚑𝚊𝚗 𝚅3.0.0*',
+    footerText: '*ImanBot 𝚅1.0.0*',
     buttons: buttons,
     headerType: 1
 }
@@ -2168,6 +2165,7 @@ anu1 = `➻ *JUDUL* : ${anu.result.title}\n`
 anu1 += `➻ *PENGARANG* : ${anu.result.pengarang}\n` 
 anu1 += `➻ *KATEGORI* : ${anu.result.kategori}\n`
 anu1 += `➻ *CERPEN* : ${anu.result.cerpen}\n`
+anu1 += `➻ *CREATED* : By ImanOffc\n`
 reply(anu1)
 break 
 case 'kece':
@@ -3031,10 +3029,10 @@ case 'sewa':
 ┏━━⬣ 𝐌𝐢𝐧𝐚𝐭?𝐂𝐡𝐚𝐭♨️
 ┃💌 : *SERING² DONASI✨*
 ┃💌 : ==============
-┃💌 : wa.me/6281398860278
+┃💌 : wa.me/6289522724388
 ┃💌 : ==============
-┃💌 : Instagram : _*@Fardan_store20*_
-┃💌 : YouTube : _*Fardan Zex's*_
+┃💌 : Instagram : _*@Imannn17n*_
+┃💌 : YouTube : _*https://youtube.com/channel/UCZgMAWwicUvzjw5m5HtIGcw*_
 ┗━━⬣`
 				sendButLocation(from, `${memek}`, `${tod}Subscribe Channel\nFardan Zex!!${tod}`, {jpegThumbnail:ofrply}, [{buttonId:`${prefix}owner`,buttonText:{displayText:'Done 🌌'},type:1}], {contextInfo: { mentionedJid: [ptod,dtod,otod,stod]}})
 				break
@@ -3043,7 +3041,7 @@ case 'vps':
               
 				runtime = process.uptime()
 				tod = '```'
-				memek =`Fardan Store Promo only Rdp
+				memek =`Iman Store Promo only Rdp
 OS All Windows!
 
 Garansi 1 Bulan Pnuh!
