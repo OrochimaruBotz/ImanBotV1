@@ -2689,7 +2689,7 @@ break
 punten = [{buttonId: 'antiwame off', buttonText: {displayText: 'Disable️'}, type: 1},{buttonId: 'antiwame on', buttonText: {displayText: 'Enable'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*Broadcast By Fardan Ganteng*',
+    footerText: '*Broadcast ©ImanOffc*',
     buttons: punten,
     headerType: 1
 }
@@ -2718,7 +2718,7 @@ await Fardan.sendMessage(from, btnasu, MessageType.buttonsMessage, {quoted: mek}
 punten = [{buttonId: 'antilink off', buttonText: {displayText: 'OFF✖️'}, type: 1},{buttonId: 'antilink on', buttonText: {displayText: 'ON✔️'}, type: 1}]
 const btnasu = {
     contentText: `${anu}`,
-    footerText: '*Broadcast By Fardan Ganteng*',
+    footerText: '*Broadcast ©ImanOffc*',
     buttons: punten,
     headerType: 1
 }
@@ -2848,7 +2848,7 @@ break
 buttons = [{buttonId: `menu`, buttonText: {displayText: 'MENU'}, type: 1},{buttonId: `sewa`, buttonText: {displayText: 'SEWA BOT'}, type: 1}]
 const btnbc = {
     contentText: `${body.slice(4)}`,
-    footerText: '*Broadcast By Fardan Ganteng*',
+    footerText: '*Broadcast ©ImanOffc*',
     buttons: buttons,
     headerType: 1
 }
