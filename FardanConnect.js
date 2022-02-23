@@ -371,7 +371,7 @@ let settingstatus = 0;
       let _uptime = process.uptime() * 1000;
       let uptime = clockString(_uptime);
 
-await Fardan.setStatus(`||Created By Fax | |Running Time : ${uptime}`).catch((_) => _);
+await Fardan.setStatus(`|| Created By ImanOffc | | Running Time : ${uptime}`).catch((_) => _);
       settingstatus = new Date() * 1;
 }
 		idttt = []
