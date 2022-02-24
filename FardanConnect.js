@@ -1373,28 +1373,29 @@ case 'menu':
 Selamat siang ☀️, iman !
 ╭━━━━━━━━━━━━━━━━┈─✧
 ┴
-│⬡ Aktif selama ${waktu(runtime)}
+│⬡ Aktif Selama *${waktu(runtime)}*
 │⬡ Prefix : [#]
-│⬡ Baterai : ${baterai.battery}
+│⬡ Private Chat : ${privat.length}  
+│⬡ Group Chat :  ${groups.length}
 │⬡ Total Chat : ${totalChat.length}
-│⬡ Waktu : ${timeWib} WIB
-│⬡ Email : ${settings.Mail}
-│⬡ *${_registered.length}* Pengguna
+│⬡ Time : ${timeWib} WIB
+│⬡ Author : © ImanOffc
+│⬡ Pengguna : ${_registered.length} 
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *Author :* *ImanOffc*
-┴ ▸ *Owner :* *ImanOffc*
+│ ▸ *Author :* ImanOffc
+┴ ▸ *Owner :* ImanOffc
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
-│ Tolong jangan dispam ya biar ga delay
+│ Silahkan verify botnya dulu ya!
 ╰━━━━━━━━━━━━━━━━┈─◂
      ▌│█║▌║▌║║▌║▌║█│▌
 
-*Creator By ImanOffc*
+     Creator By ImanOffc
                    
        `
 
-sendButDocument(from, `${menu}`, "ImanOffc\nTerimakasih Telah Menggunakan ImanBot!", fs.readFileSync('./Fardan.jpg'), {mimetype:Mimetype.pdf, thumbnail:ofrply, filename:`ImanBot By © ImanOffc`}, [{buttonId:`${prefix}allmenu`,buttonText:{displayText:'COMMAND'},type:1},{buttonId:`${prefix}owner`,buttonText:{displayText:'OWNER'},type:1},{buttonId:`${prefix}sewabot`,buttonText:{displayText:'PRESINCE'},type:1}], {quoted:fmen, contextInfo: { mentionedJid: [dtod,otod,ptod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`Hai Kak ${pushname}`,body:`${calender} / ${timeWib}`,mediaType:"2",thumbnail:ofrply,mediaUrl:`https://youtu.be/bF7K7KL7dVY`}}})
+sendButDocument(from, `${menu}`, "ImanOffc\nTerimakasih Telah Menggunakan ImanBot!", fs.readFileSync('./Fardan.jpg'), {mimetype:Mimetype.pdf, thumbnail:ofrply, filename:`ImanBot By © ImanOffc`}, [{buttonId:`${prefix}allmenu`,buttonText:{displayText:'⋮☰ Menu'},type:1},{buttonId:`${prefix}verify`,buttonText:{displayText:'⋮☰ Verify'},type:1}], {quoted:fmen, contextInfo: { mentionedJid: [dtod,otod,ptod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`Hai Kak ${pushname}`,body:`${calender} / ${timeWib}`,mediaType:"2",thumbnail:ofrply,mediaUrl:`https://youtu.be/bF7K7KL7dVY`}}})
 break
 case 'bugreport':
               if (args.length < 1) return reply(`Ketik ${prefix}bugreport [fiturnya] [Error Nya Gimana]`) 
@@ -1411,10 +1412,22 @@ const serialUser = createSerial(18)
 	        addRegisteredUser(sender, serialUser)
 	         const jancok = `    Verify Sukses
 	         
-- Nama : ${pushname}
-- Nomor : @${sender.split('@')[0]}
-- Seri: ${serialUser}
-- Pengguna: ${_registered.length}
+✧────────···[ Verify ]···─────────✧
+
+Registrasi Berhasil !
+
+╭━━━━━━━━━━━━━━━━┈         
+│
+│- Nama : ${pushname}
+│- Nomor : @${sender.split('@')[0]}
+│- Seri: ${serialUser}
+│- Pengguna : ${_registered.length}
+┬
+├━━━━━━━━━━━━━━━━┈─⋆
+┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
+│ Jangan lupa screenshot serinya ya!
+╰━━━━━━━━━━━━━━━━┈─◂
+
 `
 gbutsan = [
 {buttonId:`owner`,buttonText:{displayText:'OWNER'},type:1},
