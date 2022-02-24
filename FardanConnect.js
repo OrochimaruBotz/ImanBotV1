@@ -1369,38 +1369,28 @@ case 'menu':
         stst = await Fardan.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
        menu = `
-${yes}Title : ${isOwner ? 'Owner' : 'User'}
-${yes}Creator : @${NomorOwner}
-${yes}MyEmail : ${settings.Mail}
-${yes}Prefix: 『 ${prefix} 』
-${yes}Online : ${waktu(runtime)}
-${yes}Ping : ${latensi.toFixed(4)} Second
-${yes}Baterai  : ${baterai.battery}
-${yes}GroupChat : ${groups.length}
-${yes}PrivateChat : ${privat.length}          
-${yes}ChatTotal : ${totalChat.length}
-${yes}Platform : ${os.platform()}
+✧────────···[ Dashboard ]···─────────✧
+Selamat siang ☀️, iman !
+╭━━━━━━━━━━━━━━━━┈─✧
+┴
+│⬡ Aktif selama ${waktu(runtime)}
+│⬡ Prefix : [#]
+│⬡ Baterai : ${baterai.battery}
+│⬡ Total Chat : ${totalChat.length}
+│⬡ Waktu : ${timeWib} WIB
+│⬡ Email : ${settings.Mail}
+│⬡ *${_registered.length}* Pengguna
+┬
+├━━━━━━━━━━━━━━━━┈─⋆
+│ ▸ *Author :* *ImanOffc*
+┴ ▸ *Owner :* *ImanOffc*
+✧
+┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
+│ Tolong jangan dispam ya biar ga delay
+╰━━━━━━━━━━━━━━━━┈─◂
+     ▌│█║▌║▌║║▌║▌║█│▌
 
-${yes}Library : Baileys-script${yes}
-${yes}Version : 4.2.8${yes}
-${yes}Language : Javascript${yes}
-${yes}Author : ImanOffc${yes}
-${yes}Time : ${timeWib} WIB${yes}
-
-${yes}FREE REST API${yes}
-${yes}MY ALL SOSMED${yes}
-${yes}https://youtube.com/channel/UCZgMAWwicUvzjw5m5HtIGcw
-${yes}https://github.com/imanprokeren${yes}
-
-${yes}${tampilUcapan}${yes}
-${yes}Hari : ${week} ${weton}${yes}
-${yes}Tanggal : ${calender}${yes}
-${yes}Wib : ${timeWib}${yes}
-${yes}Wita : ${timeWita}${yes}
-${yes}wit : ${timeWit}${yes}
-
-
-${yes}Creator By ImanOffc${yes}
+*Creator By ImanOffc*
                    
        `
 
