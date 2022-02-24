@@ -495,8 +495,8 @@ const ftrol = {
                             itemCount : 123,
                             status: 1,
                             surface : 1,
-                            message: `By Fardan`, //Kasih namalu
-                            orderTitle: `By Fardan`,
+                            message: `By ImanOffc`, //Kasih namalu
+                            orderTitle: `By ImanOffc`,
                             thumbnail: dfrply, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
@@ -665,7 +665,7 @@ const fvoc = {
                             itemCount : 2021,
                             status: 1,
                             surface : 1,
-                            message: `Fardan Ilham`, //Kasih namalu
+                            message: `ImanOffc`, //Kasih namalu
                             thumbnail: fs.readFileSync('./Fardan.jpg'), //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
                           }
